@@ -81,7 +81,7 @@ export const createWindow = (
       ...options.webPreferences,
       
     },
-    autoHideMenuBar: true
+    autoHideMenuBar: false
   })
 
   win.on('close', saveState)
